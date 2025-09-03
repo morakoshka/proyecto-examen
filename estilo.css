@@ -4,8 +4,10 @@ body{
 
 div.flex_container{
     display: flex;
-    flex-direction: column; /* Default */
+    flex-direction: row; /* Default */
     flex-wrap: nowrap;
+    flex-flow: center;
+    justify-content: center;
     /* Default - All flex items will be on one line. */
     height: 100px;
     width: 100%;
