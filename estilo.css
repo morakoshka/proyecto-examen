@@ -1,3 +1,9 @@
 body{
     background-color: aqua;
 }
+
+div.flex_container{
+    height: 100px;
+    width: 1vh;
+    background-color: rgb(240, 95, 240);
+}
