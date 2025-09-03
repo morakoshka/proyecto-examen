@@ -7,7 +7,8 @@ div.flex_container{
     flex-direction: row; /* Default */
     flex-wrap: nowrap;
     flex-flow: center;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     /* Default - All flex items will be on one line. */
     height: 100px;
     width: 100%;
@@ -15,7 +16,6 @@ div.flex_container{
 }
 
 div.flex_child{
-
+    padding: 10px;
     background-color: rgb(243, 180, 62);
-    
 }
